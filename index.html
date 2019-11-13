@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>DICTIONNAIRE DES BALISES EN HTML</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <En-tete>
+  <div id="conteneur">
+   <img src="img/html_photo_mini-1454165205744-3b78555e5572.jpg" alt="photo de code"><br>
+   <h1>HTML ET CSS <br>DICTIONNAIRE DES BALISES EN HTML</h1>
+   <img src="img/photo_mini_css_1523437113738-bbd3cc89fb19.jpg" alt="photo d'un code css">
+   </div>
+  </En-tete>      
+      
+    <nav>
+      <a href="index.html">ACCUEIL</a>
+      <a href="balise-article.html">LA BALISE ARTICLE </a>
+      <a href="balise-aside.html">LA BALISE ASIDE</a>
+      <a href="balise-b.html">LA BALISE B</a>
+      <a href="body.html">LA BALISE BODY</a>
+      <a href="balise-br.html">LA BALISE BR</a>
+      <a href="balise-div.html">LA BALISE DIV</a>
+      <a href="balise-footer.html">LA BALISE FOOTER</a>
+      <a href="balise-form.html">LA BALISE FORM</a>
+      <a href="balise-header.html">LA BALISE HEADER</a>
+      <a href="balise-hr.html">LA BALISE HR</a>
+      <a href="balise-i.html">LA BALISE I</a>
+      <a href="balise-img.html">LA BALISE IMG</a>
+      <a href="balise-imput.html">LA BALISE IMPUT</a>
+      <a href="balise-li.html">LA BALISE LI</a>
+      <a href="balise-p.html">LA BALISE P</a>
+      <a href="balise-section.html">LA BALISE SECTION</a>
+      <a href="balise-select.html">LA BALISE SELECT</a>
+      <a href="balise-textarea.html">LA BALISE TEXTAREA</a>
+      <a href="balise-u.html">LA BALISE U</a>
+      <a href="les-balises-de-navigation.html">LES BALISES DE NAVIGATION</a>
+      <a href="la-balise-pre.html">LA BALISE PRE</a>
+
+
+    
+    </nav>
+    
+    <h2>Le HTML c'est quoi ? </h2>
+
+   <p>L'appelation langage HTML en faite n'est pas un langage mais le balisage de texte.
+       Le principe des balises est pour donner des ordres aux
+       navigateur. C'est a dire de lui indiquer comment il doit le représenter sur la page web.
+
+   </p>
+   <hr> 
+<h2>La balise head</h2>
+<p>La balise head contient tous les éléments de l’en-tête de votre document.
+
+        L’en-tête de votre document, compris entre les balises head, doit obligatoirement contenir un titre.
+         Il peut également contenir des scripts, des styles, des balises meta et bien plus encore …</p>
+         <hr>
+
+
+
+<h2>La Balise meta </h2>
+<p>Les balises META servent à placer des métadonnées (metadata) dans une page HTML. On placera ces informations
+ dans l’élément head, et elles ne seront pas affichées sur la page.
+
+À qui sont destinées ces informations? <br>
+Eh bien, à tous les outils susceptibles de les exploiter. Et notamment:<br>
+
+aux navigateurs web<br>
+aux moteurs de recherche;<br>
+plus largement, à tous les outils d’indexation, c’est-à-dire tous les outils qui analysent vos pages pour
+ y identifier diverses informations.<br>
+ La grande question: est-ce que c’est vraiment utile?<br>
+
+ On peut lire ici ou là que les balises META sont «obsolètes». Juste à côté, dans un forum consacré au 
+ référencement, on pourra lire des messages qui conseillent de «renseigner les balises META».
+  Et si on a le malheur de demander si c’est vraiment utile, on aura droit à des réponses laconiques du genre: 
+  «Ça ne sert pas à grand chose, mais autant le faire.» La réponse la plus juste que l’on vous fera peut-être
+   est la suivante: «ça dépend».<br>
+ 
+ En effet, les balises META sont un mécanisme qui permet d’associer des métadonnées à un document
+  (une page web). Dans l’absolu, ce mécanisme est utile.<br> La vraie question, c’est celle de l’utilité de chaque 
+  balise META.<br>
+ 
+ Nous disions que les métadonnées insérées grâce aux balises META sont destinées à divers outils capables de
+  les exploiter. Cela a deux conséquences:<br>
+ 
+ Si aucun outil n’utilise une information précise, alors donner cette information est inutile.
+ S’il existe des outils qui exploitent une information précise mais que cette exploitation ne nous intéresse 
+ pas, ou que l’information n’est pas pertinente pour le site sur lequel on travaille, on passera également
+  son chemin.<br>
+ (Le premier point peut éventuellement être discuté, et certains préconisent le principe de précaution:
+  «on ne sait jamais, ça pourrait être exploité à l’avenir par tel ou tel type d’outil». 
+  Pourquoi pas, mais attention à ne pas perdre trop de temps sur du «on ne sait jamais» 
+  alors qu’il y aurait énormément de problèmes avérés sur lesquels travailler.)<br>
+ 
+ Ce qui est certain, c’est que dans l’ensemble les balises META ont peu d’importance pour le référencement.
+  N’en faites donc pas une obsession ou une maladie! ;) Voilà pour le principe. Mais puisque c’est du cas par 
+  cas, qu’en est-il des cas particuliers? Nous vous proposons de passer en revue les balises META courantes, 
+  en indiquant à chaque fois leur utilité.</p>
+  <hr>
+  <h2>La balise link</h2>
+  <p>
+  Pour lier une feuille de style externe, on inclut un élément link de la forme suivante à l'intérieur
+   de l'élément head :<br>
+   <br>
+   Dans cet exemple, on indique le chemin vers la feuille de style grâce à l'attribut href, l'attribut
+     rel possède une valeur stylesheet qui indique que c'est une feuille de style. rel signifie relationship
+      qui correspond donc à la relation entre la ressource et le document courant. Il existe de nombreux types
+ de liens possibles.</p>
+ <hr>
+ <h2>La balise titel</h2>
+<p> La balise titel est une balise du codage HTML qui permet de donner un titre à une page web. Ce titre se
+  retrouve dans la barre de titre du navigateur mais également dans les pages de résultats des moteurs de 
+  recherche (SERP).
+
+Il est impératif pour votre site de remplir et d’optimiser la balise title car elle joue un rôle essentiel 
+en termes de référencement naturel (SEO). En effet, c’est une des principales zones chaudes pour le SEO avec
+ l’URL, la balise meta description, balise Hn, attribut alt et les liens (backlinks et maillage interne).
+
+Il est important de noter que cette balise title est limitée en pixel et donc en caractères (512 pixels ;
+ environ 55 caractères).</p>
+ <footer>
+  <p> Crée par : Hatsch Béatrice le 11/11/2019</p>
+ </footer>
+
+    
+</body>
+</html>
